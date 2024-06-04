@@ -15,19 +15,24 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
+    
 }
 
 .pfp p {
     font-size: 40px;
     margin-left: 10px;
     font-family: "Varela Round", sans-serif;
+    color:black
 }
 
 .img {
     border-radius: 50%; 
     width: 120px;
     height: auto;
+    transition: transform 0.5s, opacity 0.5s;
 }
+
 
 .omg {
     position: absolute;
@@ -61,4 +66,14 @@ html, body {
   }
   
 
+
+.pfp:hover .img {
+    transform: rotate(360deg);
+    opacity: 0;
+}
+
+
+.pfp:hover::before {
+    content: url('#second');
+}
 
