@@ -1,0 +1,84 @@
+html, body {
+background-color: black;
+padding: 0;
+margin: 0;
+height: 100%;
+overflow: hidden;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 0;
+
+}
+
+
+.links {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    align-items: center;
+}
+
+.links a {
+    font-family: "Varela Round", sans-serif;
+    color: #3e2555;
+    text-decoration: none;
+    padding: 10px;
+    transition: backround-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+
+.links a:hover {
+    transform: scale(1.1);
+
+}
+
+
+.bicon {
+    text-align: center;
+}
+
+.anibutt {
+    font-family: "Varela Round", sans-serif;
+    font-size: 24px;
+    color: white;
+    background-color: #3e2555;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: backround-color 0.3s, transform 0.3s, box-shadow 0.3s;
+
+}
+
+.anibutt:hover {
+background-color: darkviolet;
+transform: scale(1.1);
+box-shadow: 0 0 20px darkviolet;
+
+}
+
+.xmlMessage {
+    font-family: "Varela Round", sans-serif;
+    font-size: 24px;
+    color: white;
+    background-color: #3e2555;
+    padding: 15px 30px;
+    border-radius: 5px;
+    display: none;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.pls p {
+    font-family: "Varela Round", sans-serif;
+    font-size: 60px;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
